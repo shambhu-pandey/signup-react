@@ -1,13 +1,131 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
+  box-sizing: border-box;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color:#FEFFFE;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+.container{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  flex-direction:column;
+  padding: 10px;
+}
+
+.center_container{
+  border: 1px solid white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px rgb(134, 133, 133) ;
+  background-color: white;
+  width: 50vw;
+  height: 50vh;
+  display: flex;
+  flex-direction: row;
+}
+.leftContainer{
+ 
+background-color: rgb(91,87,255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.details{
+  text-align: center;
+  color:rgb(253,252,254);
+  word-wrap: break-word;
+}
+
+.para{
+color:rgb(253,252,254);
+padding: 20px;
+}
+
+.signIn{
+  color :rgb(253,252,254);
+  background-color:rgb(91,87,255); 
+  border :1px solid rgb(253,252,254);
+  border-radius: 4px;
+  font-size: 15px;
+  padding: 10px;
+
+}
+
+.rightContainer{
+
+  width : 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input_type{
+  
+  color:rgba(9, 1, 1, 0.899);
+  background-color: rgb(243, 242, 246);
+  font-size: 15px;
+  border : none;
+  padding: 10px;
+
+  width: 28vh;
+  margin: 10px;
+  flex-direction:column;
+  margin-left: 5vh;
+}
+
+
+.register{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  margin-left: 4vh;
+  
+}
+
+.button{
+  font-size: 15px;
+  padding: 5px;
+  border-radius: 7px;
+  background-color: rgb(91,87,255);
+  border : none;
+  cursor: pointer;
+   text-align: center;
+   color:rgb(253,252,254);
+   width: 17.5vw;
+   margin-top: 10px;
+}
+
+
+
+.heading{
+  margin-left: 10vh;
+  font-size: 18px;
+  white-space: nowrap;
+  color:rgb(96,96,97);
+}
+
+p{
+  color:blueviolet;
 }
